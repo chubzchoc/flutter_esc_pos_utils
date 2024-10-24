@@ -39,9 +39,9 @@ class PaperSize {
       ? 372
       : value == PaperSize.mm72.value
           ? 503
-          : value == PaperSize.mm100.value
-              ? 695
-              : 558;
+          : value == PaperSize.mm80.value
+              ? 558
+              : 695;
 }
 
 class PosBeepDuration {
